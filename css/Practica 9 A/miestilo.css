@@ -1,0 +1,20 @@
+table{
+    border: 5px;
+    color:black;
+    border-color: black;
+    border-style: double;
+    background-color: grey;
+}
+th{
+    border-style: solid;
+    border-color: black;
+    background-color: aquamarine;
+}
+td{
+    border-style:groove;
+    background-color: orange;
+    padding:4px;
+}
+table,td{
+    border-spacing:12px;
+}
