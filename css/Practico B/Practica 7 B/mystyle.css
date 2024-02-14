@@ -27,6 +27,10 @@ img{
     border-radius: 50%;
   
 }
+img .heart{
+    width: 5%;
+    height: 5%
+}
 .profile{
 
     vertical-align: middle;
