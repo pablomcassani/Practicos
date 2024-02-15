@@ -12,13 +12,13 @@
 
         const fecha1 = new Date();
         const fecha2 = new Date();
-
-        const anio = (2024-Number(prompt("¿Cuantos años tenés?")))
+        const edad = Number(prompt("¿Cuantos años tenés?"));
+        const anio = (2024-edad)
         fecha2.setFullYear(anio);
         console.log(fecha1);
         console.log(fecha2);
       const dias =fecha1-fecha2;
-      alert("¡Gracias "+ nombre+ "! viviste "+Math.ceil(dias / (1000 * 60 * 60 * 24))+" dias hasta la fecha.");
+      alert("¡Gracias "+ nombre+ "! viviste "+Math.ceil(dias / (1000 * 60 * 60 * 24))+" dias hasta la fecha en tus "+edad+ " años de edad.");
     </script>
 </body>
 </html>
