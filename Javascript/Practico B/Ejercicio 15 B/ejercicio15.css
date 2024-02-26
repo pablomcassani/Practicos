@@ -1,0 +1,91 @@
+
+h1{
+     align-self:center;
+     font-size: 70pt;
+}
+h2{
+      border-bottom: solid 3px black;
+      font-size: 40pt;
+}
+img{
+     height: 250px;;
+     width: 500px;
+}
+.contenedor{
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+       padding-left: 10%;
+
+}
+.opciones{
+     display: flex;
+     flex-direction: column;
+}
+.otroContainer{
+     display: flex;
+     flex-direction: row;
+     justify-content: end;
+}
+.imagen{
+    display: flex;
+}
+
+.texto{
+
+     width:54%;
+     font-family:Arial, Helvetica, sans-serif;
+     font-weight: 900;
+   
+}
+.imagen{
+        width:40%;
+}
+.boton1{
+     background-color:rgb(8, 113, 250);
+     border: rgb(0, 0, 0);
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;      
+ }
+ .boton2{
+     background-color:black;
+     border: grey;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;      
+ }
+.boton3{
+        background-color: rgb(20, 150, 70); 
+        border: black;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;      
+}
+.boton1,.boton2, .boton3:hover{
+     opacity: 0.7;
+     cursor:pointer;
+}
+#ultimaImagen{
+      display:table-column;
+     padding-left: 10%;
+     padding-right: 5%;
+}
+#ultimoParrafo{
+     padding-left: 80px;
+}
+#container2{
+        flex-direction: row-reverse;
+}
+#imagen2{
+     max-width: 100%;
+}

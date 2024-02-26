@@ -1,0 +1,17 @@
+body{
+    background-color:darkgray
+}
+.container{
+    border: 1px solid grey;
+    background-color:azure;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 23%;
+    height: 200px;
+}
+.label{
+    line-height: 80px;
+    text-align: center;
+    margin: 8%;
+}

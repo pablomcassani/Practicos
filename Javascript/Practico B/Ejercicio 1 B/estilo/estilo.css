@@ -1,0 +1,51 @@
+.contenedor {
+    display: flex;
+}
+
+.elForm {
+    position: relative;
+    margin: 0 auto;
+    width: 600px;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: black;
+    background-color: rgb(235, 235, 235);
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.boton {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15;
+    color: rgb(94, 94, 94);
+    background-color: rgb(236, 236, 236);
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: rgb(105, 105, 105);
+    color: white;
+}
+
+.correcto {
+    background: linear-gradient(to left, rgb(223, 224, 223), rgb(127, 134, 127));
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 550px;
+}
+
+.fallo {
+    background: linear-gradient(to right, rgb(233, 127, 127), rgb(189, 123, 123));
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+    width: 550px;
+}
+

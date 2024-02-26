@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2 de el Trabajo Práctico Obligatorio 2</title>
+    <link rel="stylesheet" href="estilo/estilo.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="elForm">
+            <!--
+             2) Realice un formulario que contenga Nombre, Apellido, Sexo, Fecha de nacimiento y mail.
+             Luego realice las validaciones para cada uno de los campos.
+            -->
+            <div class="titulo"> <h3>Formulario de alta de personas</h3></div>
+            
+            <form action="paginas/entro.html" name="registro" onsubmit="return validar()">
+                <label for="">Nombre</label>
+                <input type="text" name="elNom"><br>
+                <label for="">Apellido</label>
+                <input type="text" name="elApe"><br>
+                <label class="sexo" for="">Femenino</label>
+                <input class="radio" type="radio" name="elGenero" id="valorFemenino" value="Femenino">
+                <label class="sexo" for="">Masculino</label>
+                <input class="radio" type="radio" name="elGenero" id="valorMasculino" value="Masculino">
+                <label class="sexo" for="">No binario</label>
+                <input class="radio" type="radio" name="elGenero" id="noBinario" value="No Binario"><br>
+                <label for="">Fecha de nacimiento</label>
+                <input type="date" name="nacimiento"><br>
+                <label for="">correo</label>
+                <input type="text" name="correo"><br>
+                <input type="submit" value="Enviar">
+            </form>
+
+        </div>
+    </div>
+    <script src="js/acciones.js"></script>
+</body>
+
+</html>

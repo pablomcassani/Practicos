@@ -1,0 +1,43 @@
+.contenedor {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.intermedio {
+    position: relative;
+    margin: 0 auto;
+    width: 700px;
+}
+
+input.boton{
+    margin-right: 15px;
+    width: 80px;
+}
+
+.correcto {
+    border: solid;
+    padding: 5px;
+    border-width: 1px;
+    border-color: rgb(48, 80, 150);
+    border-radius: 1px;
+    color: rgb(48, 80, 150);
+    margin-top: 15px;
+}
+
+.cancelado {
+    border: solid;
+    padding: 5px;
+    border-width: 1px;
+    border-color: brown;
+    border-radius: 1px;
+    color: brown;
+    margin-top: 15px;
+}
+
+.campoTexto {
+    margin-right: 20px;
+}
+
+#manejo {
+    margin-bottom: 10px;
+}

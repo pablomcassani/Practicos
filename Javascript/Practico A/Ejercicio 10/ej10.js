@@ -2,7 +2,15 @@
 function calcularDias() {
     var fechaIngresada = document.getElementById('fecha').value;
     var fechaEnPartes = fechaIngresada.split('-');
-    
+
+    var patron = /^(\d{2}|\d)(-)(\d{2}|\d)(-)\d{4}$/;
+
+    var teesteo = patron.test(fechaIngresada);
+
+    if(teesteo == false){
+        alert("formato de fecha incorrecto")
+        document.getElementById('fecha').value = "";
+    } else {
     // Tuve que convertir la fecha a formato A/M/D porque no sabia como hacer para calcular sino.
     var fechaNueva = new Date(fechaEnPartes[2], fechaEnPartes[1] - 1, fechaEnPartes[0]);
     
@@ -20,4 +28,6 @@ function calcularDias() {
     } else {
         dias.textContent = "Han pasado " + (-diasDif) + " días de la fecha que ingreso.";
     }
+}
+    
 }

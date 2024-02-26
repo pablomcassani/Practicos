@@ -1,0 +1,19 @@
+body{
+background-image: url(fondo.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+#contendor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contenedor h1{
+    margin-top: 20%;
+    text-align: center;
+    color: white;
+    font-size: 64px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

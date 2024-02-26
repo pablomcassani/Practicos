@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 12 de el Trabajo Práctico Obligatorio 2</title>
+    <link rel="stylesheet" href="estilo/hoja.css">
+    <script src="codigo/script.js" defer></script>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="intermedio">
+            <!--
+                12) Realizar una página que permita modificar (añadir, borrar, modificar) al gusto del usuario
+                    los contenidos de un elemento SELECT de un formulario.
+            -->
+            <span class="titulo"><h3>Pagina de manejo de elementos que componen un select</h3></span>
+            <form action="" name="modificar">
+                <label class="campoTexto" for="">Elementos</label>
+                <select name="elementos" id="elementos">
+                    <option value="manzana">Manzana</option>
+                    <option value="naranja">Naranja</option>
+                    <option value="frutilla">Frutillla</option>
+                    <option value="pera">Pera</option>
+                </select>
+                <br>
+                <br>
+                <input class="boton" type="button" value="Agregar" onclick="crear()">
+                <input class="boton" type="button" value="Modificar" onclick="paraModif()">
+                <input class="boton" type="button" value="Eliminar" onclick="elimino()">
+
+                <br><br>
+            <span id="manejo"></span>
+            </form>
+            
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Contactos</h1>
+    <section class="conteiner">
+        <form id="formulario" name="formulario">
+            <label for="nombre">Nombre del contacto:</label>
+            <input type="text" name="nombre" id="nombre">
+    
+            <br>
+    
+            <!-- En el caso puntual de email, se coloca el type="text" porque sino el formulario va a solicitar que tenga un @ y esto "dificultaria" la validacion por parte de Js para verificar que esto sea un mail como tal-->
+            <label for="email">Email:*</label>
+            <input type="text" name="email" id="email" >
+    
+            <br>
+    
+            <label for="tel1">Telefono:*</label>
+            <input type="tel" name="tel1" id="tel1" required>
+    
+            <br>
+    
+            <label for="tel2">Telefono alternativo #1:</label>
+            <input type="tel" name="tel2" id="tel2">
+    
+            <br>
+    
+            <label for="tel3">Telefono alternativo #2:</label>
+            <input type="tel" name="tel3" id="tel3">
+    
+            <br>
+    
+    
+            <button class="btn-submit" type="submit">Cargar Contacto</button>
+        </form>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>

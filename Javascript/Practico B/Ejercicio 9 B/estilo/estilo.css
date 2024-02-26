@@ -1,0 +1,29 @@
+.contenedor {
+    display: flex;
+}
+
+.elForm {
+    position: relative;
+    margin: 0 auto;
+    width: 700px;
+    margin-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: rgb(53, 53, 53);
+}
+
+.resultadoFinalOk {
+    color: rgb(29, 100, 29);
+    margin-top: 10px;
+}
+
+.resultadoFinal0 {
+    color: rgb(139, 53, 53);
+    margin-top: 10px;
+}
+
+.resultadoFinalMal {
+    color: red;
+    margin-top: 10px;
+}
+

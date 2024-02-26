@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulario de validación</h1>
+    <section class="conteiner">
+        <form id="formulario" onsubmit="return validarFormulario()">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" required>
+    
+            <label for="edad">Edad:</label>
+            <input type="number" name="edad" id="edad" required>
+    
+            <!-- En el caso puntual de email, se coloca el type="text" porque sino el formulario va a solicitar que tenga un @ y esto "dificultaria" la validacion por parte de Js para verificar que esto sea un mail como tal-->
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" required>
+    
+            <button class="btn-submit" type="submit">Enviar</button>
+        </form>
+    </section>
+    
+</body>
+</html>

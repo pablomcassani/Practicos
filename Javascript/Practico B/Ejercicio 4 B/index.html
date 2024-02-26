@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejrcicio 4 de el Trabajo Práctico Obligatorio 2</title>
+    <link rel="stylesheet" href="estilo/estilo.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="elForm">
+            <span class="titulo"><h3>Carga de datos de el CD</h3></span>
+            <form name="musica">
+                <!--
+                    4) Realice un formulario para la carga de datos de un CD. Realice las validaciones
+                    correspondientes. Por medio de un botón agregar canción se debe habilitar una línea nueva
+                    para cargar la canción (nombre, compositor, duración).
+                -->
+                <label for="">Artista: </label>
+                <input type="text" name="nomArtisa" id="nom"><br>
+                <label for="">Albúm</label>
+                <input type="text" name="elAlbum" id="album"><br>
+                <label for="">Año publicación</label>
+                <input type="text" name="anio" id="year">
+                <br><br>
+                <input class="elBoton" type="button" onclick="agregarCancion()" value="Agregar canción">
+                <br><br>
+                <span id="agregado"></span>
+                <span id="salida"></span>
+            </form>
+
+        </div>
+    </div>
+    <script src="codigo/scrip.js"></script>
+</body>
+</html>

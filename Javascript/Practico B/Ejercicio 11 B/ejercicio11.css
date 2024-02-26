@@ -1,0 +1,29 @@
+body{
+    background-color: beige;
+
+}
+.container1{
+    border: 1px solid black;
+    display: flex;
+    padding: 20px;
+    flex-flow:  wrap;
+    background-color: aliceblue;
+    align-content: center;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    align-items: baseline;
+}
+.container2{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+      width: 95%;
+      height: 600px;
+}
+.foto{
+    display: flex;
+    max-width: 80%;
+    border: 10px double brown;
+}

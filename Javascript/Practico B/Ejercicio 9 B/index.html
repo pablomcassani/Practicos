@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 9 de el Trabajo Práctico Obligatorio 2</title>
+    <link rel="stylesheet" href="estilo/estilo.css">
+</head>
+<body>
+    <div class="    ">
+        <div class="elForm">
+            <form name="examen" >
+                <h4>De estás expresiones cual es una ecuación de segundo grado</h4>
+                <input type="radio" name="pregunta1" id="eleccion1">
+                <label for="">x² + x</label><br>
+                <input type="radio" name="pregunta1" id="eleccion2">
+                <label for="">2x + 2 - 3</label><br>
+                <input type="radio" name="pregunta1" id="eleccion3">
+                <label for=""></label>(2*x) + 3 - 5<br>
+                <span id="salida1"></span>
+                <br>
+                <h4>¿Que operador matemática se usa para saber cuales años son bisiestos?</h4>
+                <input type="radio" name="pregunta2" id="bisiesto1">
+                <label for="">(año * 2) / 4</label><br>
+                <input type="radio" name="pregunta2" id="bisiesto2">
+                <label for="">año % 4</label><br>
+                <input type="radio" name="pregunta2" id="bisiesto3">
+                <label for="">12 * 365 - 1</label><br>
+                <span id="salida2"></span>
+                <br>
+                <h4>En triángulo isóseles, la hipotenusa se cálcula</h4>
+                <input type="radio" name="pregunta3" id="hipo1">
+                <label for="">(b² + h²) / PI</label><br>
+                <input type="radio" name="pregunta3" id="hipo2">
+                <label for="">(b * h) / 2</label><br>
+                <input type="radio" name="pregunta3" id="hipo3">
+                <label for="">Ninguna</label>
+                <br>
+                <span id="salida3"></span>
+                <br><br>
+                <input type="button" onclick="validar()" value="Enviar">
+                <br>
+                <div id="resultado"></div>
+            </form>
+        </div>
+    </div>
+    <script src="codigo/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Ejercicio7.css">
+    <title>Convertidor</title>
+</head>
+<body>
+        <script src="Ejercicio7.js"></script>
+        <Section class="container">
+            <form onsubmit="submitForm(event)">
+                <label for="nombre" class="label">Realize su conversión.</label><br/> 
+                <input name="pesos" type="text" id="pesos" placeholder="$ARS" /> <br/> 
+                <input name="dolares" type="text" id="dolares" placeholder="$USD" /> <br/>
+    
+                <input type="submit" value="Submit" class="button"/>
+                <input type="button" value="Limpiar" onclick="limpiar()"/>
+            </form>
+        </Section>
+</body>
+</html>

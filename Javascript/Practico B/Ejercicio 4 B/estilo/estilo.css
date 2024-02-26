@@ -1,0 +1,65 @@
+.contenedor {
+    display: flex;
+    /*height: 90vh;*/
+}
+
+.elForm {
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    width: 600px;
+    border-radius: 5px;
+    border: solid;
+    border-color: cadetblue;
+}
+
+.titulo {
+    text-align: center;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 6px;
+    display: inline-block;
+    width: 120px;
+}
+
+
+.elBoton {
+    padding: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.etiqueta {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    margin-left: 6px;
+    display: inline-block;
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+.entrada {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    margin-left: 8px;
+    display: inline-block;
+    width: 80px;
+}
+
+.botonAgregar {
+    margin-left: 10px;
+}
+
+.listado {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: rgb(82, 82, 82);
+    padding-left: 7px;
+}

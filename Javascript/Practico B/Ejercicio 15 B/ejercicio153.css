@@ -1,0 +1,71 @@
+*{
+    background-color: blanchedalmond;
+}
+h1{
+    align-self:self-start;
+    font-size: 70pt;
+}
+h2{
+    font-size: 20pt;
+}
+img{
+    height: 250px;;
+    width: 500px;
+}
+.texto{
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        font-size: larger;
+    }
+.contenedor{
+    display: flex;
+    flex-direction: column;
+
+}
+.otroContainer{
+    display: flex;
+    align-items: flex-start;
+
+}
+.texto{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.imagen{
+    text-align: center;
+}
+.boton1{
+    background-color:rgb(8, 113, 250);
+    border: rgb(0, 0, 0);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;      
+}
+.boton2{
+    background-color:black;
+    border: grey;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;      
+}
+.boton3{
+    background-color: rgb(17, 99, 250); 
+    border: black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;      
+}
+.boton1,.boton2, .boton3:hover{
+    opacity: 0.7;
+    cursor:pointer;
+}
